@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">General Tracking</string>
     <string name="new_event">New Event</string>
+    <string name="enter_data">Enter data</string>
+    <string name="select_date_amp_time"><![CDATA[Select Date & Time]]></string>
+    <string name="save_event">Save Event</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="edit_event_data">Edit event data</string>
+    <string name="edit_date_amp_time"><![CDATA[Edit Date & Time]]></string>
+    <string name="save_changes">Save Changes</string>
 </resources>

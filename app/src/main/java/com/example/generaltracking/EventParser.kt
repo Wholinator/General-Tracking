@@ -7,6 +7,16 @@ import java.io.File
 
 object EventParser {
 
+    fun parseCategories(jsonData: JSONObject): List<String> {
+        val categories = mutableListOf<String>()
+        val categoryArray = jsonData.optJSONArray("categories") ?: JSONArray()
+
+        for (i in 0 until categoryArray.length()) {
+            categories.add(categoryArray.getString(i))
+        }
+        return categories
+    }
+
     fun parseEvents(jsonData: JSONObject): List<Event> {
         val events = mutableListOf<Event>()
         val eventArray = jsonData.optJSONArray("events") ?: JSONArray()
