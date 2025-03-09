@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">General Tracking</string>
+    <string name="new_event">New Event</string>
 </resources>
